@@ -1,0 +1,17 @@
+1) Period times will start no earlier than 6 AM and end no later than 5 PM
+    - this is important as periods are stored in non-military time without periods
+    - with this assumption, hours from 1 to 5 can be calculated to be later than hours from 6 to 12
+
+2) There are three different early bird periods that run on top of each other.  This is resolved by having a preference for the user to select the current early bird
+
+3) Should the app redownload the schedule info everytime it is open? (sure - but hit my server, not google)
+
+4) Should we use github? https://medium.com/@0xben/using-github-with-xcode-6-8208b92c7a60
+
+5) How to split up responsibilities?
+
+6) Learning swift...
+
+    Cheat Sheet #1: http://cdn1.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_5.pdf
+    Cheat Sheet #2: http://kpbp.github.io/swiftcheatsheet/#arrays
+    Official: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309

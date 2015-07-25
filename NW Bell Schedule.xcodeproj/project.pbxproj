@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B249ED01B2BD2C400454005 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B249ECF1B2BD2C400454005 /* Day.swift */; };
+		8B249ED21B2BD2DF00454005 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B249ED11B2BD2DF00454005 /* Schedule.swift */; };
+		8B249ED41B2BD2FF00454005 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B249ED31B2BD2FF00454005 /* Period.swift */; };
+		8B4240F81B5C50CF00DAB038 /* SlidingPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4240F71B5C50CF00DAB038 /* SlidingPuzzleView.swift */; };
+		8B4240FA1B5C512400DAB038 /* niles-west.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B4240F91B5C512300DAB038 /* niles-west.jpg */; };
+		8B4B0ADC1B1DE9A90039F4AD /* DayProgressImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B0ADB1B1DE9A90039F4AD /* DayProgressImageController.swift */; };
+		8B4B0ADE1B1E92FC0039F4AD /* BellSchedulesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B0ADD1B1E92FC0039F4AD /* BellSchedulesController.swift */; };
+		8B4B0AE01B1F31940039F4AD /* TimeKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B0ADF1B1F31940039F4AD /* TimeKeeper.swift */; };
+		8B4B0AE21B1F517C0039F4AD /* Assumptions and Issues List in Resources */ = {isa = PBXBuildFile; fileRef = 8B4B0AE11B1F517C0039F4AD /* Assumptions and Issues List */; };
+		8B4B0AE41B23E56C0039F4AD /* PreferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B0AE31B23E56C0039F4AD /* PreferenceController.swift */; };
+		8B92DB0B1B1CB20600C620EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92DB0A1B1CB20600C620EC /* AppDelegate.swift */; };
+		8B92DB0D1B1CB20600C620EC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92DB0C1B1CB20600C620EC /* RootViewController.swift */; };
+		8B92DB0F1B1CB20600C620EC /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92DB0E1B1CB20600C620EC /* DataViewController.swift */; };
+		8B92DB111B1CB20600C620EC /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92DB101B1CB20600C620EC /* ModelController.swift */; };
+		8B92DB141B1CB20600C620EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B92DB121B1CB20600C620EC /* Main.storyboard */; };
+		8B92DB161B1CB20600C620EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B92DB151B1CB20600C620EC /* Images.xcassets */; };
+		8B92DB191B1CB20600C620EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B92DB171B1CB20600C620EC /* LaunchScreen.xib */; };
+		8B92DB251B1CB20600C620EC /* Demo_Bell_ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92DB241B1CB20600C620EC /* Demo_Bell_ScheduleTests.swift */; };
+		8B92DB341B1CC09F00C620EC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92DB331B1CC09F00C620EC /* SettingsViewController.swift */; };
+		8B92DB361B1CC29500C620EC /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B92DB351B1CC29500C620EC /* UpcomingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B92DB1F1B1CB20600C620EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B92DAFD1B1CB20500C620EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B92DB041B1CB20500C620EC;
+			remoteInfo = "Demo Bell Schedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B249ECF1B2BD2C400454005 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		8B249ED11B2BD2DF00454005 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		8B249ED31B2BD2FF00454005 /* Period.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		8B4240F71B5C50CF00DAB038 /* SlidingPuzzleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingPuzzleView.swift; sourceTree = "<group>"; };
+		8B4240F91B5C512300DAB038 /* niles-west.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "niles-west.jpg"; sourceTree = "<group>"; };
+		8B4B0ADB1B1DE9A90039F4AD /* DayProgressImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayProgressImageController.swift; sourceTree = "<group>"; };
+		8B4B0ADD1B1E92FC0039F4AD /* BellSchedulesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellSchedulesController.swift; sourceTree = "<group>"; };
+		8B4B0ADF1B1F31940039F4AD /* TimeKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeKeeper.swift; sourceTree = "<group>"; };
+		8B4B0AE11B1F517C0039F4AD /* Assumptions and Issues List */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Assumptions and Issues List"; sourceTree = "<group>"; };
+		8B4B0AE31B23E56C0039F4AD /* PreferenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceController.swift; sourceTree = "<group>"; };
+		8B92DB051B1CB20500C620EC /* NW Bell Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NW Bell Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B92DB091B1CB20600C620EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B92DB0A1B1CB20600C620EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B92DB0C1B1CB20600C620EC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8B92DB0E1B1CB20600C620EC /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		8B92DB101B1CB20600C620EC /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		8B92DB131B1CB20600C620EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B92DB151B1CB20600C620EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B92DB181B1CB20600C620EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B92DB1E1B1CB20600C620EC /* NW Bell ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NW Bell ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B92DB231B1CB20600C620EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B92DB241B1CB20600C620EC /* Demo_Bell_ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Bell_ScheduleTests.swift; sourceTree = "<group>"; };
+		8B92DB331B1CC09F00C620EC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8B92DB351B1CC29500C620EC /* UpcomingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B92DB021B1CB20500C620EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B92DB1B1B1CB20600C620EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B92DAFC1B1CB20500C620EC = {
+			isa = PBXGroup;
+			children = (
+				8B92DB071B1CB20500C620EC /* NW Bell Schedule */,
+				8B92DB211B1CB20600C620EC /* NW Bell ScheduleTests */,
+				8B92DB061B1CB20500C620EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B92DB061B1CB20500C620EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B92DB051B1CB20500C620EC /* NW Bell Schedule.app */,
+				8B92DB1E1B1CB20600C620EC /* NW Bell ScheduleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B92DB071B1CB20500C620EC /* NW Bell Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B0AE11B1F517C0039F4AD /* Assumptions and Issues List */,
+				8B92DB0A1B1CB20600C620EC /* AppDelegate.swift */,
+				8B92DB0C1B1CB20600C620EC /* RootViewController.swift */,
+				8B92DB0E1B1CB20600C620EC /* DataViewController.swift */,
+				8B92DB101B1CB20600C620EC /* ModelController.swift */,
+				8B4B0ADB1B1DE9A90039F4AD /* DayProgressImageController.swift */,
+				8B92DB331B1CC09F00C620EC /* SettingsViewController.swift */,
+				8B4240F71B5C50CF00DAB038 /* SlidingPuzzleView.swift */,
+				8B4B0AE31B23E56C0039F4AD /* PreferenceController.swift */,
+				8B92DB351B1CC29500C620EC /* UpcomingViewController.swift */,
+				8B249ECF1B2BD2C400454005 /* Day.swift */,
+				8B249ED31B2BD2FF00454005 /* Period.swift */,
+				8B249ED11B2BD2DF00454005 /* Schedule.swift */,
+				8B4B0ADD1B1E92FC0039F4AD /* BellSchedulesController.swift */,
+				8B4B0ADF1B1F31940039F4AD /* TimeKeeper.swift */,
+				8B4240F91B5C512300DAB038 /* niles-west.jpg */,
+				8B92DB121B1CB20600C620EC /* Main.storyboard */,
+				8B92DB151B1CB20600C620EC /* Images.xcassets */,
+				8B92DB171B1CB20600C620EC /* LaunchScreen.xib */,
+				8B92DB081B1CB20500C620EC /* Supporting Files */,
+			);
+			name = "NW Bell Schedule";
+			path = "Demo Bell Schedule";
+			sourceTree = "<group>";
+		};
+		8B92DB081B1CB20500C620EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B92DB091B1CB20600C620EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B92DB211B1CB20600C620EC /* NW Bell ScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B92DB241B1CB20600C620EC /* Demo_Bell_ScheduleTests.swift */,
+				8B92DB221B1CB20600C620EC /* Supporting Files */,
+			);
+			name = "NW Bell ScheduleTests";
+			path = "Demo Bell ScheduleTests";
+			sourceTree = "<group>";
+		};
+		8B92DB221B1CB20600C620EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B92DB231B1CB20600C620EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B92DB041B1CB20500C620EC /* NW Bell Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B92DB281B1CB20600C620EC /* Build configuration list for PBXNativeTarget "NW Bell Schedule" */;
+			buildPhases = (
+				8B92DB011B1CB20500C620EC /* Sources */,
+				8B92DB021B1CB20500C620EC /* Frameworks */,
+				8B92DB031B1CB20500C620EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NW Bell Schedule";
+			productName = "Demo Bell Schedule";
+			productReference = 8B92DB051B1CB20500C620EC /* NW Bell Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B92DB1D1B1CB20600C620EC /* NW Bell ScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B92DB2B1B1CB20600C620EC /* Build configuration list for PBXNativeTarget "NW Bell ScheduleTests" */;
+			buildPhases = (
+				8B92DB1A1B1CB20600C620EC /* Sources */,
+				8B92DB1B1B1CB20600C620EC /* Frameworks */,
+				8B92DB1C1B1CB20600C620EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B92DB201B1CB20600C620EC /* PBXTargetDependency */,
+			);
+			name = "NW Bell ScheduleTests";
+			productName = "Demo Bell ScheduleTests";
+			productReference = 8B92DB1E1B1CB20600C620EC /* NW Bell ScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B92DAFD1B1CB20500C620EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Matthew Fahrenbacher";
+				TargetAttributes = {
+					8B92DB041B1CB20500C620EC = {
+						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					8B92DB1D1B1CB20600C620EC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8B92DB041B1CB20500C620EC;
+					};
+				};
+			};
+			buildConfigurationList = 8B92DB001B1CB20500C620EC /* Build configuration list for PBXProject "NW Bell Schedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B92DAFC1B1CB20500C620EC;
+			productRefGroup = 8B92DB061B1CB20500C620EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B92DB041B1CB20500C620EC /* NW Bell Schedule */,
+				8B92DB1D1B1CB20600C620EC /* NW Bell ScheduleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B92DB031B1CB20500C620EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B92DB141B1CB20600C620EC /* Main.storyboard in Resources */,
+				8B92DB191B1CB20600C620EC /* LaunchScreen.xib in Resources */,
+				8B4240FA1B5C512400DAB038 /* niles-west.jpg in Resources */,
+				8B4B0AE21B1F517C0039F4AD /* Assumptions and Issues List in Resources */,
+				8B92DB161B1CB20600C620EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B92DB1C1B1CB20600C620EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B92DB011B1CB20500C620EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B92DB361B1CC29500C620EC /* UpcomingViewController.swift in Sources */,
+				8B4240F81B5C50CF00DAB038 /* SlidingPuzzleView.swift in Sources */,
+				8B92DB0D1B1CB20600C620EC /* RootViewController.swift in Sources */,
+				8B92DB111B1CB20600C620EC /* ModelController.swift in Sources */,
+				8B92DB0F1B1CB20600C620EC /* DataViewController.swift in Sources */,
+				8B249ED01B2BD2C400454005 /* Day.swift in Sources */,
+				8B92DB341B1CC09F00C620EC /* SettingsViewController.swift in Sources */,
+				8B249ED21B2BD2DF00454005 /* Schedule.swift in Sources */,
+				8B4B0ADE1B1E92FC0039F4AD /* BellSchedulesController.swift in Sources */,
+				8B92DB0B1B1CB20600C620EC /* AppDelegate.swift in Sources */,
+				8B4B0ADC1B1DE9A90039F4AD /* DayProgressImageController.swift in Sources */,
+				8B249ED41B2BD2FF00454005 /* Period.swift in Sources */,
+				8B4B0AE41B23E56C0039F4AD /* PreferenceController.swift in Sources */,
+				8B4B0AE01B1F31940039F4AD /* TimeKeeper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B92DB1A1B1CB20600C620EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B92DB251B1CB20600C620EC /* Demo_Bell_ScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B92DB201B1CB20600C620EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B92DB041B1CB20500C620EC /* NW Bell Schedule */;
+			targetProxy = 8B92DB1F1B1CB20600C620EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B92DB121B1CB20600C620EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B92DB131B1CB20600C620EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B92DB171B1CB20600C620EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B92DB181B1CB20600C620EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B92DB261B1CB20600C620EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B92DB271B1CB20600C620EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B92DB291B1CB20600C620EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo Bell Schedule/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "NW Bell Schedule";
+			};
+			name = Debug;
+		};
+		8B92DB2A1B1CB20600C620EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo Bell Schedule/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "NW Bell Schedule";
+			};
+			name = Release;
+		};
+		8B92DB2C1B1CB20600C620EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo Bell ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "NW Bell ScheduleTests";
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		8B92DB2D1B1CB20600C620EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo Bell ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "NW Bell ScheduleTests";
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B92DB001B1CB20500C620EC /* Build configuration list for PBXProject "NW Bell Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B92DB261B1CB20600C620EC /* Debug */,
+				8B92DB271B1CB20600C620EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B92DB281B1CB20600C620EC /* Build configuration list for PBXNativeTarget "NW Bell Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B92DB291B1CB20600C620EC /* Debug */,
+				8B92DB2A1B1CB20600C620EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B92DB2B1B1CB20600C620EC /* Build configuration list for PBXNativeTarget "NW Bell ScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B92DB2C1B1CB20600C620EC /* Debug */,
+				8B92DB2D1B1CB20600C620EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B92DAFD1B1CB20500C620EC /* Project object */;
+}
