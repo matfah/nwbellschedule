@@ -50,6 +50,7 @@
 		8B4B0ADF1B1F31940039F4AD /* TimeKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeKeeper.swift; sourceTree = "<group>"; };
 		8B4B0AE11B1F517C0039F4AD /* Assumptions and Issues List */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Assumptions and Issues List"; sourceTree = "<group>"; };
 		8B4B0AE31B23E56C0039F4AD /* PreferenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceController.swift; sourceTree = "<group>"; };
+		8B920FA91B633BF00087CF60 /* Bell Schedule Directions - iOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bell Schedule Directions - iOS.pdf"; sourceTree = "<group>"; };
 		8B92DB051B1CB20500C620EC /* NW Bell Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NW Bell Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B92DB091B1CB20600C620EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B92DB0A1B1CB20600C620EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 		8B92DAFC1B1CB20500C620EC = {
 			isa = PBXGroup;
 			children = (
+				8B920FA91B633BF00087CF60 /* Bell Schedule Directions - iOS.pdf */,
 				8B92DB071B1CB20500C620EC /* NW Bell Schedule */,
 				8B92DB211B1CB20600C620EC /* NW Bell ScheduleTests */,
 				8B92DB061B1CB20500C620EC /* Products */,
